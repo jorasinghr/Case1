@@ -23,7 +23,12 @@ Vi håper du har anledning til å levere løsningen i en zip-fil over mail eller
 3. en README.md som beskriver hvordan man setter opp og kjører koden, samt en kort beskrivelse av løsningen og designvalgene som ble tatt.
 
 ## Løsning
-### Antagelser/beslutninger
-- Medaljong-arkitektur (lakehouse eller warehouse). Lagre lokalt for å forenkle oppgaven?
-- Det legges opp til at dataene hentes fra API-endepunkter og med db-tilgang (f.eks. til PowerBI) hvis det også er ønskelig.
-- 
+### How-to
+Koden kjøres fra notebooks(.ipynb-filene) som avsluttes med _pipeline. Det er lagt opp til at man kjører ting lokalt uten behov for database eller sky-løsning. Notebooks kan kjøres så ofte man vil, men det genereres filer for hver kjøring. 
+Jeg har kjørt notebooks i VScode og jupyter notebook, men annen løsning funker fint. 
+
+### Designvalg
+Løsningen ble designet etter medaljong-arkitektur prinsippene og har derfor bronze/silver/gold layers. Siden dette er en POC har mye blitt forenklet, hovedsakelig pga arbeidsmengde. Det er en lakehouse som ligger til grunn for datalagring med strukturen data/<'egendefinert navn'>/<'egendefinert navn'>_<timestamp>.parquet. Dataene kan hentes ut på alle måter som støtter parquet filer evt. lastes inn i en database (hvis det er ønskelig).
+
+### arkitektur
+Det er en stor fil som inneholder de fleste funksjoner som brukes. Denne ligger under utils/functions.py. Dette er en forenkling og kan deles opp etter lag, datakilde eller annet fornuftig fordeling. Denne filen inneholder alt av innhenting av data til innlast til bronze/silver/gold, og fremvisning av siste oppdaterte versjon. Det ligger også egne funksjoner i _pipelines filene som er spesifiserte for den enkelte pipelinen.
