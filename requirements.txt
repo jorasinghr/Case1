@@ -5,3 +5,4 @@ requests>=2.31.0
 #fastparquet>=2023.7.0  
 pathlib2>=2.3.7
 python_version>=3.14.0
+plotly==5.9.0
