@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\test\\date=2026-01-16\\test_20260116_203551.parquet",
+      "ingestion_timestamp": "2026-01-16 20:35:51.019696"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\test\\date=2026-01-16\\test_20260116_210331.parquet",
+      "ingestion_timestamp": "2026-01-16 21:03:31.250138"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\test\\date=2026-01-16\\test_20260116_210943.parquet",
+      "ingestion_timestamp": "2026-01-16 21:09:43.336363"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\test\\date=2026-01-16\\test_20260116_213544.parquet",
+      "ingestion_timestamp": "2026-01-16 21:35:44.833235"
+    }
+  ]
+}

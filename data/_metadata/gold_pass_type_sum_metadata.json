@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "records": 3,
+      "columns": [
+        "pass_type",
+        "price_nok"
+      ],
+      "file_path": "data\\gold\\pass_type_sum\\pass_type_sum_20260116_232708.parquet",
+      "aggregation_timestamp": "2026-01-16 23:27:08.364447"
+    },
+    {
+      "records": 3,
+      "columns": [
+        "pass_type",
+        "price_nok"
+      ],
+      "file_path": "data\\gold\\pass_type_sum\\pass_type_sum_20260116_232909.parquet",
+      "aggregation_timestamp": "2026-01-16 23:29:09.568124"
+    }
+  ]
+}

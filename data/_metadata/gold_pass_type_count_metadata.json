@@ -1,0 +1,39 @@
+{
+  "runs": [
+    {
+      "records": 3,
+      "columns": [
+        "transaction_id",
+        "user_id",
+        "source",
+        "relatedbikestationid",
+        "price_nok",
+        "purchase_timestamp"
+      ],
+      "file_path": "data\\gold\\pass_type_count\\pass_type_count_20260116_232438.parquet",
+      "aggregation_timestamp": "2026-01-16 23:24:38.508599"
+    },
+    {
+      "records": 3,
+      "columns": [
+        "transaction_id",
+        "user_id",
+        "source",
+        "relatedbikestationid",
+        "price_nok",
+        "purchase_timestamp"
+      ],
+      "file_path": "data\\gold\\pass_type_count\\pass_type_count_20260116_232708.parquet",
+      "aggregation_timestamp": "2026-01-16 23:27:08.350331"
+    },
+    {
+      "records": 3,
+      "columns": [
+        "pass_type",
+        "transaction_id"
+      ],
+      "file_path": "data\\gold\\pass_type_count\\pass_type_count_20260116_232909.parquet",
+      "aggregation_timestamp": "2026-01-16 23:29:09.544742"
+    }
+  ]
+}

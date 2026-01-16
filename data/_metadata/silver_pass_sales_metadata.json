@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "records": 50,
+      "columns": [
+        "transaction_id",
+        "user_id",
+        "pass_type",
+        "source",
+        "relatedbikestationid",
+        "price_nok",
+        "purchase_timestamp",
+        "_processed_timestamp"
+      ],
+      "file_path": "data\\silver\\pass_sales\\pass_sales_20260116_232013.parquet",
+      "processing_timestamp": "2026-01-16 23:20:13.464913"
+    }
+  ]
+}

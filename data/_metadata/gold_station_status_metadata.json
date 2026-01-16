@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "is_installed",
+        "can_rent",
+        "can_return",
+        "num_bikes_available",
+        "num_docks_available"
+      ],
+      "file_path": "data\\gold\\station_status\\station_status_20260116_224337.parquet",
+      "aggregation_timestamp": "2026-01-16 22:43:37.135830"
+    },
+    {
+      "records": 11,
+      "columns": [
+        "station_id",
+        "is_installed",
+        "can_rent",
+        "can_return",
+        "num_bikes_available",
+        "num_docks_available"
+      ],
+      "file_path": "data\\gold\\station_status\\station_status_20260116_224442.parquet",
+      "aggregation_timestamp": "2026-01-16 22:44:42.318224"
+    }
+  ]
+}

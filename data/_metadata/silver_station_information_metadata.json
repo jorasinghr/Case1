@@ -1,0 +1,52 @@
+{
+  "runs": [
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "address_str",
+        "location",
+        "_processed_timestamp"
+      ],
+      "file_path": "data\\silver\\station_information\\station_information_20260116_221759.parquet",
+      "processing_timestamp": "2026-01-16 22:17:59.535872"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "address_str",
+        "location",
+        "_processed_timestamp"
+      ],
+      "file_path": "data\\silver\\station_information\\station_information_20260116_221809.parquet",
+      "processing_timestamp": "2026-01-16 22:18:09.590141"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "address_str",
+        "location",
+        "_processed_timestamp"
+      ],
+      "file_path": "data\\silver\\station_information\\station_information_20260116_233528.parquet",
+      "processing_timestamp": "2026-01-16 23:35:28.477732"
+    }
+  ]
+}

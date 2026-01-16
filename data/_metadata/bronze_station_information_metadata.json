@@ -1,0 +1,34 @@
+{
+  "runs": [
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\station_information\\date=2026-01-16\\station_information_20260116_221628.parquet",
+      "ingestion_timestamp": "2026-01-16 22:16:28.501526"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\station_information\\date=2026-01-16\\station_information_20260116_233527.parquet",
+      "ingestion_timestamp": "2026-01-16 23:35:27.314647"
+    }
+  ]
+}

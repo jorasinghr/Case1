@@ -1,0 +1,18 @@
+{
+  "runs": [
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "is_installed",
+        "can_rent",
+        "can_return",
+        "num_bikes_available",
+        "num_docks_available",
+        "_processed_timestamp"
+      ],
+      "file_path": "data\\silver\\station_status\\station_status_20260116_223950.parquet",
+      "processing_timestamp": "2026-01-16 22:39:50.560647"
+    }
+  ]
+}
