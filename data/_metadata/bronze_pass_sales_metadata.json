@@ -15,6 +15,22 @@
       ],
       "file_path": "data\\bronze\\pass_sales\\date=2026-01-16\\pass_sales_20260116_231909.parquet",
       "ingestion_timestamp": "2026-01-16 23:19:09.679629"
+    },
+    {
+      "records": 50,
+      "columns": [
+        "transaction_id",
+        "user_id",
+        "pass_type",
+        "source",
+        "RelatedBikeStationId",
+        "price_nok",
+        "purchase_timestamp",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\pass_sales\\date=2026-01-18\\pass_sales_20260118_210955.parquet",
+      "ingestion_timestamp": "2026-01-18 21:09:55.513093"
     }
   ]
 }

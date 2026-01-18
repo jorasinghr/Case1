@@ -14,6 +14,21 @@
       ],
       "file_path": "data\\bronze\\station_status\\date=2026-01-16\\station_status_20260116_223935.parquet",
       "ingestion_timestamp": "2026-01-16 22:39:35.394253"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "is_installed",
+        "can_rent",
+        "can_return",
+        "num_bikes_available",
+        "num_docks_available",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\station_status\\date=2026-01-18\\station_status_20260118_212206.parquet",
+      "ingestion_timestamp": "2026-01-18 21:22:06.679935"
     }
   ]
 }

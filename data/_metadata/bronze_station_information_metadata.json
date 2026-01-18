@@ -29,6 +29,51 @@
       ],
       "file_path": "data\\bronze\\station_information\\date=2026-01-16\\station_information_20260116_233527.parquet",
       "ingestion_timestamp": "2026-01-16 23:35:27.314647"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\station_information\\date=2026-01-18\\station_information_20260118_211729.parquet",
+      "ingestion_timestamp": "2026-01-18 21:17:29.320671"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\station_information\\date=2026-01-18\\station_information_20260118_211942.parquet",
+      "ingestion_timestamp": "2026-01-18 21:19:42.670805"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "_ingestion_timestamp",
+        "_ingestion_date"
+      ],
+      "file_path": "data\\bronze\\station_information\\date=2026-01-18\\station_information_20260118_212115.parquet",
+      "ingestion_timestamp": "2026-01-18 21:21:15.507817"
     }
   ]
 }

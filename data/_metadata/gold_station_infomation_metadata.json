@@ -47,6 +47,54 @@
       ],
       "file_path": "data\\gold\\station_infomation\\station_infomation_20260116_233530.parquet",
       "aggregation_timestamp": "2026-01-16 23:35:30.111686"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "address_str",
+        "location",
+        "weird_coord"
+      ],
+      "file_path": "data\\gold\\station_infomation\\station_infomation_20260118_211729.parquet",
+      "aggregation_timestamp": "2026-01-18 21:17:29.552105"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "address_str",
+        "location",
+        "weird_coord"
+      ],
+      "file_path": "data\\gold\\station_infomation\\station_infomation_20260118_211942.parquet",
+      "aggregation_timestamp": "2026-01-18 21:19:42.941310"
+    },
+    {
+      "records": 15,
+      "columns": [
+        "station_id",
+        "name",
+        "address",
+        "lat",
+        "lon",
+        "capacity",
+        "address_str",
+        "location",
+        "weird_coord"
+      ],
+      "file_path": "data\\gold\\station_infomation\\station_infomation_20260118_212116.parquet",
+      "aggregation_timestamp": "2026-01-18 21:21:16.071039"
     }
   ]
 }

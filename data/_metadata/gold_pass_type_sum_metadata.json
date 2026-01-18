@@ -17,6 +17,15 @@
       ],
       "file_path": "data\\gold\\pass_type_sum\\pass_type_sum_20260116_232909.parquet",
       "aggregation_timestamp": "2026-01-16 23:29:09.568124"
+    },
+    {
+      "records": 3,
+      "columns": [
+        "pass_type",
+        "price_nok"
+      ],
+      "file_path": "data\\gold\\pass_type_sum\\pass_type_sum_20260118_210955.parquet",
+      "aggregation_timestamp": "2026-01-18 21:09:56.000884"
     }
   ]
 }
